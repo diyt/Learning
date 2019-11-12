@@ -27,3 +27,6 @@
       int[] deltaX = new int[]{1,0,0,-1};
       int[] deltaY = new int[]{0,1,-1,0};
       ```
+- [Topological Sort](https://www.lintcode.com/problem/topological-sorting/description)
+  - [BFS solution](https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/): Calculate **indegree** for each node, keep pushing nodes with indegree 0 to a queue. Poll nodes from queue and add to result.
+  - [DFS solution](https://www.geeksforgeeks.org/topological-sorting/): Create a **visited map and stack**. Recursively calling dfsHelper function to unvisited nodes. Push nodes to stack in the end of dfsHelper function so that all children are already in the stack when push the node to stack. Popping nodes from stack and add to result.
