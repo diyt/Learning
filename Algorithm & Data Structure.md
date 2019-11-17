@@ -40,5 +40,9 @@
   - DFS for Combination and subsets
     - When to use: 1. When need to find **ALL** solutions. 2. Doesn't require order. 3. O(2^n)
     - Three key parts when using DFS: **Definition, Breakdown, Exit**
-    - Classic problems: [Subsets](https://www.lintcode.com/problem/subsets/description), [Subsets(with duplicates)](https://www.lintcode.com/problem/subsets-ii/description), [Combination Sum(one number can be used multiple times)](https://www.lintcode.com/problem/combination-sum/description): nextIndex = index, [Combination Sum II(one number can only be used once)](https://www.lintcode.com/problem/combination-sum-ii/description): nextIndex = index + 1
+    - Classic problems:
+      - [Subsets](https://www.lintcode.com/problem/subsets/description): 
+      - [Subsets II(with duplicates numbers)](https://www.lintcode.com/problem/subsets-ii/description): Add additional check to avoid counting same number twice
+      - [Combination Sum(one number can be used multiple times)](https://www.lintcode.com/problem/combination-sum/description): nextIndex = index
+      - [Combination Sum II(one number can only be used once)](https://www.lintcode.com/problem/combination-sum-ii/description): nextIndex = index + 1
       
