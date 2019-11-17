@@ -35,3 +35,5 @@
     - Calculate values, max, min, avg...: [Lowest Common Ancestor](https://www.lintcode.com/problem/lowest-common-ancestor/description) - Use ResultType to pass values between recursions
     - Transformation: [Flatten Binary Tree to Linked List](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/) - Use a global variable to track the last visited node.
     - BST
+      - BST inorder traversal: [use stack](https://www.lintcode.com/problem/binary-search-tree-iterator/description), [use global variable "lastNode"](https://www.lintcode.com/problem/validate-binary-search-tree/my-submissions)
+      
