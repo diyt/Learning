@@ -37,7 +37,7 @@
     - Binary Search Tree(BST)
       - BST inorder traversal: [use stack](https://www.lintcode.com/problem/binary-search-tree-iterator/description), [use global variable "lastNode"](https://www.lintcode.com/problem/validate-binary-search-tree/my-submissions)
       - [Find the closest k elements to target in BST](https://www.lintcode.com/problem/closest-binary-search-tree-value-ii/description): BST inorder traversal + Binary Search
-  - DFS for Combination and subsets
+  - DFS for Combination and subsets: Use recursion
     - When to use: 1. When need to find **ALL** solutions. 2. Doesn't require order. 3. O(2^n)
     - Three key parts when using DFS: **Definition, Breakdown, Exit**
     - Classic problems:
