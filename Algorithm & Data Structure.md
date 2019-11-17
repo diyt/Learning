@@ -45,4 +45,5 @@
       - [Subsets II(with duplicates numbers)](https://www.lintcode.com/problem/subsets-ii/description): nextIndex = index + 1, Add additional check to avoid counting same number twice
       - [Combination Sum(one number can be used multiple times)](https://www.lintcode.com/problem/combination-sum/description): nextIndex = index
       - [Combination Sum II(one number can only be used once)](https://www.lintcode.com/problem/combination-sum-ii/description): nextIndex = index + 1
+  - DFS Complexity: https://www.jiuzhang.com/qa/2994/
       
