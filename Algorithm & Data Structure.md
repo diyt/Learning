@@ -30,7 +30,7 @@
 - [Topological Sort](https://www.lintcode.com/problem/topological-sorting/description)
   - [BFS solution(preferred, won't cause infinite loop)](https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/): Calculate **indegree** for each node, keep pushing nodes with indegree 0 to a queue. Poll nodes from queue and add to result.
   - [DFS solution(will cause infinite loop when there's a cycle)](https://www.geeksforgeeks.org/topological-sorting/): Create a **visited map and stack**. Recursively calling dfsHelper function to unvisited nodes. Push nodes to stack in the end of dfsHelper function so that all children are already in the stack when push the node to stack. Popping nodes from stack and add to result.
-- DFS
+- DFS Traversal
   - DFS in Trees
     - Calculate values, max, min, avg...: [Lowest Common Ancestor](https://www.lintcode.com/problem/lowest-common-ancestor/description) - Use ResultType to pass values between recursions
     - Transformation: [Flatten Binary Tree to Linked List](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/) - Use a global variable to track the last visited node.
