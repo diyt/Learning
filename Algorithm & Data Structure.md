@@ -46,4 +46,7 @@
       - [Combination Sum(one number can be used multiple times)](https://www.lintcode.com/problem/combination-sum/description): nextIndex = index
       - [Combination Sum II(one number can only be used once)](https://www.lintcode.com/problem/combination-sum-ii/description): nextIndex = index + 1
   - DFS Complexity: https://www.jiuzhang.com/qa/2994/
+- Permutations
+  - Basic permutations: [next permutation(find pivot point and swap)](https://www.lintcode.com/problem/next-permutation/description), [permutation index(no duplicates)](https://www.lintcode.com/problem/permutation-index/description)
+  - Complex problems: [permutation index(with duplicates)](https://www.lintcode.com/problem/permutation-index-ii/description)
       
