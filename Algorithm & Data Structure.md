@@ -49,5 +49,5 @@
   - Memoization Search(Caching, same as DP): [Wildcard Matching](https://www.lintcode.com/problem/wildcard-matching/description), [Regular Expression Matching](https://www.lintcode.com/problem/regular-expression-matching/description), [Word Brek II](https://www.lintcode.com/problem/word-break-ii/description)
 - Permutations
   - Basic permutations: [next permutation(find pivot point and swap)](https://www.lintcode.com/problem/next-permutation/description), [permutation index(no duplicates)](https://www.lintcode.com/problem/permutation-index/description)
-  - Complex problems: [permutation index(with duplicates)](https://www.lintcode.com/problem/permutation-index-ii/description)
+  - Complex problems: [permutation index II(with duplicates)](https://www.lintcode.com/problem/permutation-index-ii/description)
       
