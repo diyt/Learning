@@ -45,9 +45,9 @@
       - [Subsets II(with duplicates numbers)](https://www.lintcode.com/problem/subsets-ii/description): nextIndex = index + 1, Add additional check to avoid counting same number twice
       - [Combination Sum(one number can be used multiple times)](https://www.lintcode.com/problem/combination-sum/description): nextIndex = index
       - [Combination Sum II(one number can only be used once)](https://www.lintcode.com/problem/combination-sum-ii/description): nextIndex = index + 1
-  - DFS Complexity: https://www.jiuzhang.com/qa/2994/
   - Memoization Search(Caching, same as DP): [Wildcard Matching](https://www.lintcode.com/problem/wildcard-matching/description), [Regular Expression Matching](https://www.lintcode.com/problem/regular-expression-matching/description), [Word Brek II](https://www.lintcode.com/problem/word-break-ii/description)
-- Permutations
-  - Basic permutations: [next permutation(find pivot point and swap)](https://www.lintcode.com/problem/next-permutation/description), [permutation index(no duplicates)](https://www.lintcode.com/problem/permutation-index/description)
-  - Complex problems: [permutation index II(with duplicates)](https://www.lintcode.com/problem/permutation-index-ii/description)
-      
+  - Permutation-based DFS
+    - Basic permutations: [next permutation(find pivot point and swap)](https://www.lintcode.com/problem/next-permutation/description), [permutation index(no duplicates)](https://www.lintcode.com/problem/permutation-index/description)
+    - Complex problems: [permutation index II(with duplicates)](https://www.lintcode.com/problem/permutation-index-ii/description)
+  - Graph-based DFS: [N Queens](https://www.lintcode.com/problem/n-queens/description), [Phone letter combinations](https://www.lintcode.com/problem/letter-combinations-of-a-phone-number/description)
+  - DFS Complexity: https://www.jiuzhang.com/qa/2994/
