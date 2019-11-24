@@ -54,6 +54,6 @@
     - [Regular Expression Matching](https://www.lintcode.com/problem/regular-expression-matching/description)
     - [Word Break](https://www.lintcode.com/problem/word-break/description)
     - [Word Break II](https://www.lintcode.com/problem/word-break-ii/description)
-    - [Word Ladder II](https://www.lintcode.com/problem/word-ladder-ii/my-submissions)
+    - [Word Ladder II](https://www.lintcode.com/problem/word-ladder/description)
   - DFS Complexity: https://www.jiuzhang.com/qa/2994/
   
