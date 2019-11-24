@@ -57,4 +57,5 @@
     - [Word Pattern II](https://www.lintcode.com/problem/word-pattern-ii/description)
     - [Word Ladder II](https://www.lintcode.com/problem/word-ladder-ii/description)
   - DFS Complexity: https://www.jiuzhang.com/qa/2994/
-  
+- Trie (Data structure used to store dictionary. Used to quickly search prefix and word)
+  - [Word Search II](https://www.lintcode.com/problem/word-search-ii/description)
