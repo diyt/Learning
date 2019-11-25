@@ -59,3 +59,6 @@
   - DFS Complexity: https://www.jiuzhang.com/qa/2994/
 - Trie (Data structure used to store dictionary. Used to quickly search prefix and word)
   - [Word Search II](https://www.lintcode.com/problem/word-search-ii/description)
+- Data Strctures:
+  - Linked List: [LRU Cache](https://www.lintcode.com/problem/lru-cache/description)(Keep moving the latest element to tail. Can use either Singly or Double Linked List**Easy to miss edge cases, careful**)
+  - Map: [Insert/Remove/GetRandom in O(1)](https://www.lintcode.com/problem/insert-delete-getrandom-o1/description)
