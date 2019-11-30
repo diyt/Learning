@@ -64,3 +64,6 @@
     - [LRU Cache](https://www.lintcode.com/problem/lru-cache/description)(Keep moving the latest element to tail. Can use either Singly or Double Linked List**Easy to miss edge cases, careful**)
     - [First Unique Number in Data Stream](https://www.lintcode.com/problem/first-unique-number-in-data-stream/): Use map and linked list to track all unique numbers and update in the process.
   - Map: [Insert/Remove/GetRandom in O(1)](https://www.lintcode.com/problem/insert-delete-getrandom-o1/description)
+  - Heap: A tree data structure where parent is always bigger(maxHeap)/smaller(minHeap) than child nodes. It supports **O(logn) Add/Remove and O(1) Max/Min operations**.
+    - Java default PriorityQueue is the minHeap that remove operation is O(n).
+    - Example questions: [Ugly Number II](https://www.lintcode.com/problem/ugly-number-ii/description), [Sliding Window median](https://www.lintcode.com/problem/sliding-window-median/description)
