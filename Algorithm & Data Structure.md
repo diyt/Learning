@@ -64,6 +64,8 @@
     - [LRU Cache](https://www.lintcode.com/problem/lru-cache/description)(Keep moving the latest element to tail. Can use either Singly or Double Linked List**Easy to miss edge cases, careful**)
     - [First Unique Number in Data Stream](https://www.lintcode.com/problem/first-unique-number-in-data-stream/): Use map and linked list to track all unique numbers and update in the process.
   - Map: [Insert/Remove/GetRandom in O(1)](https://www.lintcode.com/problem/insert-delete-getrandom-o1/description)
+  - Stack: Mainly used for DFS. [Min Stack](https://www.lintcode.com/problem/min-stack/description)
+  - Queue: Mainly used for BFS. [Topological Sort](https://www.lintcode.com/problem/topological-sorting/description)
   - Heap: A tree data structure where parent is always bigger(maxHeap)/smaller(minHeap) than child nodes. It supports **O(logn) Add/Remove and O(1) Max/Min operations**.
     - Java PriorityQueue is **default to minHeap** with O(n) remove operation.
     - Example questions: [Ugly Number II](https://www.lintcode.com/problem/ugly-number-ii/description), [Sliding Window median](https://www.lintcode.com/problem/sliding-window-median/description)
