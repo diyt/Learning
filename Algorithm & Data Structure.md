@@ -67,3 +67,4 @@
   - Heap: A tree data structure where parent is always bigger(maxHeap)/smaller(minHeap) than child nodes. It supports **O(logn) Add/Remove and O(1) Max/Min operations**.
     - Java default PriorityQueue is the minHeap that remove operation is O(n).
     - Example questions: [Ugly Number II](https://www.lintcode.com/problem/ugly-number-ii/description), [Sliding Window median](https://www.lintcode.com/problem/sliding-window-median/description)
+    - Top K problem: [k closest points from origin](https://www.lintcode.com/problem/k-closest-points/description)(**customize comparator**), [top k largest numbers](https://www.lintcode.com/problem/top-k-largest-numbers-ii/description)(pay attention whether to use minHeap or maxHeap)
