@@ -61,7 +61,7 @@
   - [Word Search II](https://www.lintcode.com/problem/word-search-ii/description)
 - Data Strctures:
   - Linked List:
-    - [LRU Cache](https://www.lintcode.com/problem/lru-cache/description)(Keep moving the latest element to tail. Can use either Singly or Double Linked List**Easy to miss edge cases, careful**)
+    - [LRU Cache](https://www.lintcode.com/problem/lru-cache/description)(Keep moving the latest element to tail. Can use either Singly or Double Linked List.** Easy to miss edge cases, careful**)
     - [First Unique Number in Data Stream](https://www.lintcode.com/problem/first-unique-number-in-data-stream/): Use map and linked list to track all unique numbers and update in the process.
   - Map: [Insert/Remove/GetRandom in O(1)](https://www.lintcode.com/problem/insert-delete-getrandom-o1/description)
   - Stack: Mainly used for DFS. [Min Stack](https://www.lintcode.com/problem/min-stack/description)
