@@ -78,3 +78,4 @@
   - Matrix:
     - Use a 2D array to record sum of submatrix [(0, 0), (i-1, j-1)]
     - Example problem: [zero-sum submatrix](https://www.lintcode.com/problem/submatrix-sum/description)
+  - Binary Indexed Tree(BIT): Support calculating array preSum and update elements in Log(n) time [Range Sum Query - Mutable](https://www.lintcode.com/problem/range-sum-query-mutable/description) Remember the template
