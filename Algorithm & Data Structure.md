@@ -1,6 +1,10 @@
 # Algorithm and Data Structure
 
-- Binary Search: [Template 3](https://aaronice.gitbooks.io/lintcode/content/knowledge/binary-search.html), Two termination conditions.  
+- Binary Search:
+  - Basic: [Template 3](https://aaronice.gitbooks.io/lintcode/content/knowledge/binary-search.html), Two termination conditions.
+  - Complex problem to reduce time complexity:
+    - [Median of two sorted arrays](https://www.lintcode.com/problem/median-of-two-sorted-arrays/description) - Binary Search on index
+    - [Median of k sorted arrays](https://www.lintcode.com/problem/median-of-k-sorted-arrays/description) Binary Search on value
 - Two Pointers: [Triangle Count](https://www.lintcode.com/problem/triangle-count/description) - Remember to fix largest edge.  
 - Partition Array:
   - [Template](https://www.lintcode.com/problem/partition-array/description)
