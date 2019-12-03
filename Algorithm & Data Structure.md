@@ -85,5 +85,5 @@
   - Basic version(using array of index 0 - n-1): [Valid Tree](https://www.lintcode.com/problem/graph-valid-tree/description), [redundant connection](https://www.lintcode.com/problem/redundant-connection/description)
   - Advanced version:
     - [Number of islands II](https://www.lintcode.com/problem/number-of-islands-ii/description)(2D Union Find)
-    - [Currency Exchange](https://leetcode.com/problems/evaluate-division/)(Using map and complex class)
+    - [Currency Exchange](https://leetcode.com/problems/evaluate-division/), [Merge Accounts](https://www.lintcode.com/problem/accounts-merge/description)(Using map and complex class)
   - Optimization: path compression and tree balancing(update subtree with fewer nodes)
