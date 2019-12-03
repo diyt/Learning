@@ -61,8 +61,6 @@
     - [Word Pattern II](https://www.lintcode.com/problem/word-pattern-ii/description)
     - [Word Ladder II](https://www.lintcode.com/problem/word-ladder-ii/description)
   - DFS Complexity: https://www.jiuzhang.com/qa/2994/
-- Trie (Data structure used to store dictionary. Used to quickly search prefix and word)
-  - [Word Search II](https://www.lintcode.com/problem/word-search-ii/description)
 - Data Strctures:
   - Linked List:
     - [LRU Cache](https://www.lintcode.com/problem/lru-cache/description)(Keep moving the latest element to tail. Can use either Singly or Double Linked List.** Easy to miss edge cases, careful**)
@@ -87,3 +85,8 @@
     - [Number of islands II](https://www.lintcode.com/problem/number-of-islands-ii/description)(2D Union Find)
     - [Currency Exchange](https://leetcode.com/problems/evaluate-division/), [Merge Accounts](https://www.lintcode.com/problem/accounts-merge/description)(Using map and complex class)
   - Optimization: path compression and tree balancing(update subtree with fewer nodes)
+- Trie: Used to build a dictionary for faster lookup exactly and prefix, use less space than hash
+  - [Template](https://www.lintcode.com/problem/implement-trie-prefix-tree/description)(Trie class with a root TrieNode object)
+  - [Search Regex(.)](https://www.lintcode.com/problem/add-and-search-word-data-structure-design/description)(Trie + DFS)
+  - [Word Square](https://www.lintcode.com/problem/word-squares/description)(Build the map for each prefix + DFS)
+  - [Word Search II](https://www.lintcode.com/problem/word-search-ii/description)
