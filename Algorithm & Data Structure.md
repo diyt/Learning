@@ -72,7 +72,7 @@
     - [Min Stack](https://www.lintcode.com/problem/min-stack/description)
     - [Decode String](https://www.lintcode.com/problem/decode-string/description)(**Pay attention to edge cases**)
     - Monotonous Stack: _Track the smallest/biggest numbers on both sides in an array._
-      - [Largest Rectangle in Histogram](https://www.lintcode.com/problem/largest-rectangle-in-histogram/description)
+      - [Largest Rectangle in Histogram](https://www.lintcode.com/problem/largest-rectangle-in-histogram/description): Remember to add 0 to the end to pop out all elements
       - [Maximal Rectangle](https://www.lintcode.com/problem/maximal-rectangle/description): Convert into 1D problem by using each row as baseline
   - Queue: Mainly used for BFS. [Topological Sort](https://www.lintcode.com/problem/topological-sorting/description)
   - **Heap**: A tree data structure where parent is always bigger(maxHeap)/smaller(minHeap) than child nodes. It supports **O(logn) Add/Remove and O(1) Max/Min operations**.
