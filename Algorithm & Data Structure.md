@@ -70,9 +70,9 @@
   - Map: [Insert/Remove/GetRandom in O(1)](https://www.lintcode.com/problem/insert-delete-getrandom-o1/description)
   - Stack: Mainly used for DFS. [Min Stack](https://www.lintcode.com/problem/min-stack/description)
   - Queue: Mainly used for BFS. [Topological Sort](https://www.lintcode.com/problem/topological-sorting/description)
-  - Heap: A tree data structure where parent is always bigger(maxHeap)/smaller(minHeap) than child nodes. It supports **O(logn) Add/Remove and O(1) Max/Min operations**.
+  - **Heap**: A tree data structure where parent is always bigger(maxHeap)/smaller(minHeap) than child nodes. It supports **O(logn) Add/Remove and O(1) Max/Min operations**.
     - Java PriorityQueue is **default to minHeap** with O(n) remove operation.
-    - Example questions: [Ugly Number II](https://www.lintcode.com/problem/ugly-number-ii/description), [Sliding Window median](https://www.lintcode.com/problem/sliding-window-median/description)
+    - Example questions: [Ugly Number II](https://www.lintcode.com/problem/ugly-number-ii/description), [Sliding Window median](https://www.lintcode.com/problem/sliding-window-median/description), [2D Trapping Water](https://www.lintcode.com/problem/trapping-rain-water-ii/description)
     - Top K problem: [k closest points from origin](https://www.lintcode.com/problem/k-closest-points/description)(**customize comparator**), [top k largest numbers](https://www.lintcode.com/problem/top-k-largest-numbers-ii/description)(pay attention whether to use minHeap or maxHeap), [top k in big data](https://www.geeksforgeeks.org/how-to-find-top-n-records-using-mapreduce/)(using MapReduce)
     - Need to override **equals, compareTo, hashCode(parameter of type Object)** method of Comparable class when using PriorityQueue, Map, Set: [kth smallest number in sorted matrix](https://www.lintcode.com/problem/kth-smallest-number-in-sorted-matrix/description)
   - Matrix:
