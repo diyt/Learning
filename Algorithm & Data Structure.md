@@ -5,7 +5,9 @@
   - Complex problem to reduce time complexity:
     - [Median of two sorted arrays](https://www.lintcode.com/problem/median-of-two-sorted-arrays/description) - Binary Search on index
     - [Median of k sorted arrays](https://www.lintcode.com/problem/median-of-k-sorted-arrays/description) Binary Search on value
-- Two Pointers: [Triangle Count](https://www.lintcode.com/problem/triangle-count/description) - Remember to fix largest edge.  
+- Two Pointers:
+  - [Triangle Count](https://www.lintcode.com/problem/triangle-count/description) - Remember to fix largest edge.  
+  - [Trapping Rain Water](https://www.lintcode.com/problem/trapping-rain-water/description)
 - Partition Array:
   - [Template](https://www.lintcode.com/problem/partition-array/description)
   - [Quick Select](https://www.lintcode.com/problem/kth-largest-element/description)
