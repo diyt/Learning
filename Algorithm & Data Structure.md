@@ -74,6 +74,7 @@
     - Monotonous Stack: _Find the first smallest/biggest number on both sides in an array. O(n)_
       - [Largest Rectangle in Histogram](https://www.lintcode.com/problem/largest-rectangle-in-histogram/description): Remember to add 0 to the end to pop out all elements
       - [Maximal Rectangle](https://www.lintcode.com/problem/maximal-rectangle/description): Convert into 1D problem by using each row as baseline
+      - [Max Tree](https://www.jianshu.com/p/53ebfd45559d): Maintain a decreasing stack. Whenever an element got popped out, it knows the first element bigger than it on both side, which are candidates to be it's parent node.
   - Queue: Mainly used for BFS. [Topological Sort](https://www.lintcode.com/problem/topological-sorting/description)
   - **Heap**: A tree data structure where parent is always bigger(maxHeap)/smaller(minHeap) than child nodes. It supports **O(logn) Add/Remove and O(1) Max/Min operations**.
     - Java PriorityQueue is **default to minHeap** with O(n) remove operation.
