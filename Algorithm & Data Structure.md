@@ -1,10 +1,14 @@
 # Algorithm and Data Structure
 
 - Binary Search:
-  - Basic: [Template 3](https://aaronice.gitbooks.io/lintcode/content/knowledge/binary-search.html), Two termination conditions.
-  - Complex problem to reduce time complexity:
+  - Basic: has a range to do BS
+    - [Template 3](https://aaronice.gitbooks.io/lintcode/content/knowledge/binary-search.html), Two termination conditions
     - [Median of two sorted arrays](https://www.lintcode.com/problem/median-of-two-sorted-arrays/description) - Binary Search on index
-    - [Median of k sorted arrays](https://www.lintcode.com/problem/median-of-k-sorted-arrays/description) Binary Search on value
+  - Complex: no explicit range to do BS. Guess result and test. Do BS on result range
+    - [sqrt x](https://www.lintcode.com/problem/sqrtx/description)
+    - [Wood Cut](https://www.lintcode.com/problem/wood-cut/description)
+    - [Copy Books](https://www.lintcode.com/problem/copy-books/description)
+    - [Median of k sorted arrays](https://www.lintcode.com/problem/median-of-k-sorted-arrays/description): guess kth number in 2D sorted array using BS
 - Two Pointers:
   - [Triangle Count](https://www.lintcode.com/problem/triangle-count/description) - Remember to fix largest edge.  
   - [Trapping Rain Water](https://www.lintcode.com/problem/trapping-rain-water/description)
