@@ -98,3 +98,6 @@
   - [Search Regex(.)](https://www.lintcode.com/problem/add-and-search-word-data-structure-design/description)(Trie + DFS)
   - [Word Square](https://www.lintcode.com/problem/word-squares/description)(Build the map for each prefix + DFS)
   - [Word Search II](https://www.lintcode.com/problem/word-search-ii/description)
+- Sweep Line: For interval problems, treat start/end edge separately and sort the edges.
+  - [Num of airplanes](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky/)
+  - [Skyline problem](https://www.lintcode.com/problem/the-skyline-problem/description): comparater rules when sorting, use maxHeap to track the previous max rising height
