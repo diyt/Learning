@@ -9,6 +9,7 @@
     - [Wood Cut](https://www.lintcode.com/problem/wood-cut/description)
     - [Copy Books](https://www.lintcode.com/problem/copy-books/description)
     - [Median of k sorted arrays](https://www.lintcode.com/problem/median-of-k-sorted-arrays/description): guess kth number in 2D sorted array using BS
+    - [Maximum Average SubArray II](https://www.lintcode.com/problem/maximum-average-subarray-ii/description)
 - Two Pointers:
   - [Triangle Count](https://www.lintcode.com/problem/triangle-count/description) - Remember to fix largest edge.  
   - [Trapping Rain Water](https://www.lintcode.com/problem/trapping-rain-water/description)
