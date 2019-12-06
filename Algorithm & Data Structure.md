@@ -46,6 +46,7 @@
     - Calculate values, max, min, avg...: [Lowest Common Ancestor](https://www.lintcode.com/problem/lowest-common-ancestor/description) - Use ResultType to pass values between recursions
     - Transformation: [Flatten Binary Tree to Linked List](https://www.lintcode.com/problem/flatten-binary-tree-to-linked-list/) - Use a global variable to track the last visited node.
     - Binary Search Tree(BST)
+      - [Inorder](https://www.lintcode.com/problem/binary-tree-inorder-traversal/description) (Left, Root, Right), [Preorder])https://www.lintcode.com/problem/binary-tree-preorder-traversal/description_ (Root, Left, Right), [PostOrder](https://www.lintcode.com/problem/binary-tree-postorder-traversal/description)(Left, Right, Root). Need to master recursive & non-recursive solution using stack.
       - BST inorder traversal: [use stack](https://www.lintcode.com/problem/binary-search-tree-iterator/description), [use global variable "lastNode"](https://www.lintcode.com/problem/validate-binary-search-tree/my-submissions)
       - [Find the closest k elements to target in BST](https://www.lintcode.com/problem/closest-binary-search-tree-value-ii/description): BST inorder traversal + Binary Search
   - DFS for Combination and subsets: Use recursion
