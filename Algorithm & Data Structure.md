@@ -58,8 +58,8 @@
       - [Combination Sum(one number can be used multiple times)](https://www.lintcode.com/problem/combination-sum/description): nextIndex = index
       - [Combination Sum II(one number can only be used once)](https://www.lintcode.com/problem/combination-sum-ii/description): nextIndex = index + 1
   - Permutation-based DFS
-    - Basic permutations: [next permutation(find pivot point and swap)](https://www.lintcode.com/problem/next-permutation/description), [permutation index(no duplicates)](https://www.lintcode.com/problem/permutation-index/description)
-    - Complex problems: [permutation index](https://www.lintcode.com/problem/permutation-index/description), [permutation index II(with duplicates)](https://www.lintcode.com/problem/permutation-index-ii/description)
+    - Basic permutations: [next permutation(find pivot point and swap)](https://www.lintcode.com/problem/next-permutation/description)
+    - Complex problems: [permutation index(no duplicates)](https://www.lintcode.com/problem/permutation-index/description), [permutation index II(with duplicates)](https://www.lintcode.com/problem/permutation-index-ii/description)
   - Graph-based DFS: [N Queens](https://www.lintcode.com/problem/n-queens/description), [Phone letter combinations](https://www.lintcode.com/problem/letter-combinations-of-a-phone-number/description)
   - Memoization Search(Caching, same as DP):
     - [Wildcard Matching](https://www.lintcode.com/problem/wildcard-matching/description)
