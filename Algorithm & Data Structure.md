@@ -81,6 +81,7 @@
       - [Maximal Rectangle](https://www.lintcode.com/problem/maximal-rectangle/description): Convert into 1D problem by using each row as baseline
       - [Max Tree](https://www.jianshu.com/p/53ebfd45559d): Maintain a decreasing stack. Whenever an element got popped out, it knows the first element bigger than it on both side, which are candidates to be it's parent node.
   - Queue: Mainly used for BFS. [Topological Sort](https://www.lintcode.com/problem/topological-sorting/description)
+  - Dequeue: Implement by LinkedList, can support both stack and queue operations. [Sliding Window Maximum](https://www.lintcode.com/problem/sliding-window-maximum/description)(maintain monotonous dequeue for maximum candidates)
   - **Heap**: A tree data structure where parent is always bigger(maxHeap)/smaller(minHeap) than child nodes. It supports **O(logn) Add/Remove and O(1) Max/Min operations**.
     - Java PriorityQueue is **default to minHeap** with O(n) remove operation.
     - Example questions: [Ugly Number II](https://www.lintcode.com/problem/ugly-number-ii/description), [Sliding Window median](https://www.lintcode.com/problem/sliding-window-median/description), [2D Trapping Water](https://www.lintcode.com/problem/trapping-rain-water-ii/description)
