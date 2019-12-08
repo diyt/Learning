@@ -108,3 +108,8 @@
 - Sweep Line: For interval problems, treat start/end edge separately and sort the edges.
   - [Num of airplanes](https://www.lintcode.com/problem/number-of-airplanes-in-the-sky/)
   - [Skyline problem](https://www.lintcode.com/problem/the-skyline-problem/description): comparater rules when sorting, use maxHeap to track the previous max rising height
+- Dynamic Programming(DP)
+  - Rolling Array(For array or matrix):
+    - [Minimum Path Sum](https://www.lintcode.com/problem/minimum-path-sum/description)
+    - [Max Square](https://www.lintcode.com/problem/maximal-square/)(square full of 1s)
+    - [Max Square II](https://www.cnblogs.com/lz87/p/7393780.html)(square with only diagonal of 1s, maintain three dp arrays)
