@@ -61,7 +61,7 @@
     - Basic permutations: [next permutation(find pivot point and swap)](https://www.lintcode.com/problem/next-permutation/description)
     - Complex problems: [permutation index(no duplicates)](https://www.lintcode.com/problem/permutation-index/description), [permutation index II(with duplicates)](https://www.lintcode.com/problem/permutation-index-ii/description)
   - Graph-based DFS: [N Queens](https://www.lintcode.com/problem/n-queens/description), [Phone letter combinations](https://www.lintcode.com/problem/letter-combinations-of-a-phone-number/description)
-  - Memoization Search(Caching, same as DP):
+  - Memoization Search:
     - [Wildcard Matching](https://www.lintcode.com/problem/wildcard-matching/description)
     - [Regular Expression Matching](https://www.lintcode.com/problem/regular-expression-matching/description)
     - [Word Break](https://www.lintcode.com/problem/word-break/description)
@@ -113,3 +113,7 @@
     - [Minimum Path Sum](https://www.lintcode.com/problem/minimum-path-sum/description)
     - [Max Square](https://www.lintcode.com/problem/maximal-square/)(square full of 1s)
     - [Max Square II](https://www.cnblogs.com/lz87/p/7393780.html)(square with only diagonal of 1s, maintain three dp arrays)
+  - Memoization Search + DFS:
+    - When to use: 1. Is one type of DP: hard to initialize. 2. State transition function not in sequence
+    - Drawbacks: Takes more space, cannot optimize space. Depth of recursion can be deep
+    - [Longest Increasing Continuous Subsequence](https://algorithm.yuanbin.me/zh-hans/dynamic_programming/longest_increasing_continuous_subsequence_ii.html)
