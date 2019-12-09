@@ -116,4 +116,9 @@
   - Memoization Search + DFS:
     - When to use: 1. Is one type of DP: hard to initialize. 2. State transition function not in sequence
     - Drawbacks: Takes more space, cannot optimize space. Depth of recursion can be deep
-    - [Longest Increasing Continuous Subsequence](https://algorithm.yuanbin.me/zh-hans/dynamic_programming/longest_increasing_continuous_subsequence_ii.html)
+    - [Longest Increasing Continuous Subsequence II](https://algorithm.yuanbin.me/zh-hans/dynamic_programming/longest_increasing_continuous_subsequence_ii.html)
+  - Gaming DP
+    - [Coins in a line](winner gets the last coin)(https://www.lintcode.com/problem/coins-in-a-line/description)
+    - [Coins in a line II](Winner gets the most sum)(https://www.lintcode.com/problem/coins-in-a-line-ii/description)
+  - Interval DP: Bigger interval relies on smaller interval
+    - [Burst Balloons](https://www.lintcode.com/problem/burst-balloons/description)(Add 1s on both sides)
