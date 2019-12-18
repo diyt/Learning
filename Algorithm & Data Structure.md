@@ -122,3 +122,11 @@
     - [Coins in a line II](Winner gets the most sum)(https://www.lintcode.com/problem/coins-in-a-line-ii/description)
   - Interval DP: Bigger interval relies on smaller interval
     - [Burst Balloons](https://www.lintcode.com/problem/burst-balloons/description)(Add 1s on both sides)
+  - Double Sequence DP: Usually 2D DP, use rolling array to optimize space
+    - [Longest Common Sequence](https://www.lintcode.com/problem/longest-common-subsequence/description)
+    - [Edit Distance](https://www.lintcode.com/problem/edit-distance/description)
+    - [Interleaving String](https://www.lintcode.com/problem/interleaving-string/description)
+  - Backpack DP:
+    - [Backpack I](https://www.lintcode.com/problem/backpack/description): dp[i] - if we can form weight j, [Minimum Partition](https://www.lintcode.com/problem/minimum-partition/description): **Remember to update from end to start to avoid duplicate counts**
+    - [Backpack II](https://www.lintcode.com/problem/backpack-ii/description): dp[i][j] - The maximum value using the first i stones to form exactly weight j. If using 1D DP, remember to traverse from end to start to avoid duplicate counts
+    
