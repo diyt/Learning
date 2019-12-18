@@ -118,10 +118,10 @@
     - Drawbacks: Takes more space, cannot optimize space. Depth of recursion can be deep
     - [Longest Increasing Continuous Subsequence II](https://algorithm.yuanbin.me/zh-hans/dynamic_programming/longest_increasing_continuous_subsequence_ii.html)
   - Gaming DP
-    - [Coins in a line](winner gets the last coin)(https://www.lintcode.com/problem/coins-in-a-line/description)
-    - [Coins in a line II](Winner gets the most sum)(https://www.lintcode.com/problem/coins-in-a-line-ii/description)
+    - [Coins in a line](https://www.lintcode.com/problem/coins-in-a-line/description): winner gets the last coin
+    - [Coins in a line II](https://www.lintcode.com/problem/coins-in-a-line-ii/description): Winner gets the most sum
   - Interval DP: Bigger interval relies on smaller interval
-    - [Burst Balloons](https://www.lintcode.com/problem/burst-balloons/description)(Add 1s on both sides)
+    - [Burst Balloons](https://www.lintcode.com/problem/burst-balloons/description): Add 1s on both sides
   - Double Sequence DP: Usually 2D DP, use rolling array to optimize space
     - [Longest Common Sequence](https://www.lintcode.com/problem/longest-common-subsequence/description)
     - [Edit Distance](https://www.lintcode.com/problem/edit-distance/description)
