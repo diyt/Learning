@@ -126,7 +126,8 @@
     - [Longest Common Sequence](https://www.lintcode.com/problem/longest-common-subsequence/description)
     - [Edit Distance](https://www.lintcode.com/problem/edit-distance/description)
     - [Interleaving String](https://www.lintcode.com/problem/interleaving-string/description)
-  - Backpack DP:
+  - Backpack DP: [Backpack series](https://segmentfault.com/a/1190000006325321)
+    - This can usually be solved by two loops. First loop over all stones(numbers), second loop over all capacity values. If don't allow duplicates, second loop is reverse, if allow duplicates, second loop is non-reverse. When defining dp array, make the size capacity + 1.
     - [Backpack I](https://www.lintcode.com/problem/backpack/description): dp[i] - if we can form weight i, [Minimum Partition](https://www.lintcode.com/problem/minimum-partition/description): **Remember to update from end to start to avoid duplicate counts**
     - [Backpack II](https://www.lintcode.com/problem/backpack-ii/description): dp[i][j] - The maximum value using the first i stones to form exactly weight j. If using 1D DP, remember to traverse from end to start to avoid duplicate counts
     
