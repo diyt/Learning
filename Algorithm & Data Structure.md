@@ -127,6 +127,6 @@
     - [Edit Distance](https://www.lintcode.com/problem/edit-distance/description)
     - [Interleaving String](https://www.lintcode.com/problem/interleaving-string/description)
   - Backpack DP:
-    - [Backpack I](https://www.lintcode.com/problem/backpack/description): dp[i] - if we can form weight j, [Minimum Partition](https://www.lintcode.com/problem/minimum-partition/description): **Remember to update from end to start to avoid duplicate counts**
+    - [Backpack I](https://www.lintcode.com/problem/backpack/description): dp[i] - if we can form weight i, [Minimum Partition](https://www.lintcode.com/problem/minimum-partition/description): **Remember to update from end to start to avoid duplicate counts**
     - [Backpack II](https://www.lintcode.com/problem/backpack-ii/description): dp[i][j] - The maximum value using the first i stones to form exactly weight j. If using 1D DP, remember to traverse from end to start to avoid duplicate counts
     
