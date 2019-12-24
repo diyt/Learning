@@ -16,7 +16,7 @@
 - Partition Array:
   - [Template](https://www.lintcode.com/problem/partition-array/description)
   - [Quick Select](https://www.lintcode.com/problem/kth-largest-element/description)
-  - [Sort 3 colors](https://www.lintcode.com/problem/sort-colors/my-submissions)
+  - [Sort 3 colors](https://www.lintcode.com/problem/sort-colors/my-submissions): Maintain three pointers: next position for i(0), j(1), k(2). While loop termination condition is j > k
   - [Sort k colors](https://www.lintcode.com/problem/sort-colors-ii/description)  
 - BFS Traversal:
   - When to use BFS:
@@ -130,4 +130,7 @@
     - This can usually be solved by two loops. First loop over all stones(what result can be formed using the first i stones), second loop over all capacity values. If don't allow duplicates, second loop is reverse, if allow duplicates, second loop is non-reverse. When defining dp array, make the size capacity + 1.
     - [Backpack I](https://www.lintcode.com/problem/backpack/description): dp[i] - if we can form weight i, [Minimum Partition](https://www.lintcode.com/problem/minimum-partition/description): **Remember to update from end to start to avoid duplicate counts**
     - [Backpack II](https://www.lintcode.com/problem/backpack-ii/description): dp[i][j] - The maximum value using the first i stones to form exactly weight j. If using 1D DP, remember to traverse from end to start to avoid duplicate counts
-    
+  - Iterator: Using stack to avoid recursion
+    - [BST Iterator](https://www.lintcode.com/problem/binary-search-tree-iterator/description)
+    - [Flatten Nestet List](https://www.lintcode.com/problem/flatten-list/)
+    - [Flatten Nested List Iterator](https://www.lintcode.com/problem/flatten-nested-list-iterator/description)
