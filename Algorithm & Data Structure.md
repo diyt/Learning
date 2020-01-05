@@ -134,3 +134,12 @@
     - [BST Iterator](https://www.lintcode.com/problem/binary-search-tree-iterator/description)
     - [Flatten Nestet List](https://www.lintcode.com/problem/flatten-list/)
     - [Flatten Nested List Iterator](https://www.lintcode.com/problem/flatten-nested-list-iterator/description)
+- [Reservoir Sampling](https://www.jianshu.com/p/7a9ea6ece2af)
+  - Select m samples from N elements. Usually N is very big in stream format. Do one pass to select m samples
+  - Single server:
+    - Put the first m elements in the result array.
+    - For each i > m, generate random number "rand" in [1, i]. If rand < m, replace res[rand]
+  - Distributed Version:
+    - Split N into k servers, each with number N1, N2, ..., Nk
+    - Use single Reservoir Sampling algorithm to select m elements on each server
+    - Repeat m times, generate rand from [1, N], if rand falls into range of server i, pick one selected element from the m selected numbers in server i. Mark it as already selected and don't pick it again.
