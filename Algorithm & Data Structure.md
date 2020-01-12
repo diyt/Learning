@@ -94,6 +94,11 @@
   - Binary Indexed Tree(BIT):
     - Support calculating array preSum and update elements in Log(n) time
     - [Range Sum Query - Mutable](https://www.lintcode.com/problem/range-sum-query-mutable/description)(Remember the template)
+  - [Segment Tree](https://blog.csdn.net/Yaokai_AssultMaster/article/details/79599809):
+    - Create an array of size 2n, start counting from 1.
+    - Initialization: updating [n+1, 2n] first, and then update each parent node by merging two children nodes(2n and 2n+1).
+    - Update: Update i+n first and keeps updating parent nodes.
+    - Range Query: while left<right, if left%2==1 or right%2==1, update result using left or right and moving 1 step to center. Then move up by doing left /= 2, right /= 2.
 - Union Find: A data structure that supports O(1) Union and O(1) find
   - Basic version(using array of index 0 - n-1): [Valid Tree](https://www.lintcode.com/problem/graph-valid-tree/description), [redundant connection](https://www.lintcode.com/problem/redundant-connection/description)
   - Advanced version:
